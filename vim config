@@ -1,0 +1,34 @@
+" =============================================================================
+" Configurações Básicas
+" =============================================================================
+syntax on
+set background=dark
+highlight Normal ctermbg=black
+
+" =============================================================================
+" --- INDENTAÇÃO INTELIGENTE E PERSONALIZADA (COM 3 ESPAÇOS) ---
+" =============================================================================
+filetype plugin indent on
+set tabstop=3       " MUDADO PARA 3
+set shiftwidth=3    " MUDADO PARA 3
+set softtabstop=3   " MUDADO PARA 3
+set expandtab
+set autoindent
+set cindent
+
+" =============================================================================
+" Interface e Experiência do Usuário
+" =============================================================================
+set number
+set ruler
+set showmatch
+set incsearch
+
+
+" ---------- QUALIDADE DE VIDA ----------
+set clipboard=unnamedplus   " Copiar/colar com sistema
+set mouse=a                 " Ativar mouse
+set showmatch               " Destacar parênteses/chaves
+set hlsearch                " Destacar buscas
+set incsearch               " Busca incremental
+set ignorecase smartcase    " Busca inteligente
